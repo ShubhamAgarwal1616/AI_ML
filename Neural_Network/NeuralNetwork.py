@@ -29,6 +29,6 @@ class NeuralNetwork:
 
     return out_o1
 
-network = OurNeuralNetwork()
+network = NeuralNetwork()
 x = np.array([2, 3])
 print(network.feedforward(x))
